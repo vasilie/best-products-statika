@@ -1,0 +1,57 @@
+$text__family--RB:  'RB', sans-serif;
+$base__font-size: 16px !default;
+$base__line: 20 !default;
+
+@font-face {
+    font-family: 'RB';
+    src: url('/src/font/RB-Light.woff') format("woff")
+         // url(../font/RB-Light.eot),
+
+         // url(../font/RB-Light.svg) format("svg");
+}
+@font-face {
+    font-family: 'RB-Bold';
+    src: url('/src/font/RB-Bold.woff') format("woff")
+         // url(../font/RB-Light.eot),
+
+         // url(../font/RB-Light.svg) format("svg");
+}
+html {
+  font-family: $text__family--RB;
+	font-size: $base__font-size;
+  font-weight:500;
+  color: #333;
+
+}
+h1 {
+  font-family: 'RB-Bold';
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.04;
+  letter-spacing: normal;
+  text-align: left;
+  color:black;
+
+}
+h5 {
+  font-size: 21px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.48;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+p {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
