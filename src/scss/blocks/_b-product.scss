@@ -41,12 +41,19 @@
   width: 38.11%;
   display: inline-block;
   vertical-align: top;
+  @include breakpoint(mobile) {
+    width: 100%;
+  }
 }
 .b-product__content {
   width: 61%;
   display: inline-block;
   vertical-align: top;
   padding-left: 30px;
+  @include breakpoint(mobile) {
+    width: 100%;
+    padding-top:5%;
+  }
 }
 .b-product__button {
   font-size: 12px;

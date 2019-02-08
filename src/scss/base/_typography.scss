@@ -33,7 +33,20 @@ h1 {
   letter-spacing: normal;
   text-align: left;
   color:black;
+  padding-top: 11%;
 
+}
+h2 {
+  font-size: 32px;
+  font-family: 'RB-Bold';
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.09;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
 }
 h5 {
   font-size: 21px;
@@ -44,6 +57,7 @@ h5 {
   letter-spacing: normal;
   text-align: left;
   color: #707070;
+  margin-bottom: 6.6%;
 }
 p {
   font-size: 18px;
@@ -54,4 +68,7 @@ p {
   letter-spacing: normal;
   text-align: left;
   color: #000000;
+}
+img {
+  width: 100%;
 }
